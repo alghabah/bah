@@ -159,7 +159,7 @@ section{
         margin: 20px 0px 0px 0px;
     }
     nav li a{
-        font-size: 6px;
+        font-size: 10px;
         padding: 10px;
     }
     nav li:hover a{
@@ -167,6 +167,6 @@ section{
 
     }
     .sous{
-        font-size: 7px;
+        font-size: 10px;
     }
 }
