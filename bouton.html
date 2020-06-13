@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>les boutons d'imbrication</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="styl1e.css" rel="stylesheet">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <style type="text/css">
+        [class*="1cont"],[class*="1col"]{
+            background-color: #DDD;
+            border: 2px solid #ADD;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>les boutons d'imbrication</h2>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Algha</button>
+                <button type="button" class="btn btn-success">Valider</button>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Menus</button>
+                    <div  class="dropdown-menu"><a class="dropdown-item" href="#">Tablette</a>
+                        <a class="dropdown-item" href="#">destok</a>
+                        <a class="dropdown-item" href="#">Smarphone</a>
+                        <a class="dropdown-item" href="#">Ordinateur</a>
+                    </div>
+                </div>
+            </div>
+            <h2>alerte de clôture</h2>
+               <p>le bouton avec kes classes class="close" et data-dismiss="alert" est utilisé pour fermer la boîte
+                   d'alerte.<br>la classe alert-dismissible ajoute un remplissage supplementaire au bouton de fermeture
+               </p>
+               <div class="alert alert-success alert-dismissible">
+                   <button type="button" class="close" data-dismiss="alert">&times;</button>
+                   <strong>Success!</strong> indication de succes ou action positive
+               </div> 
+               <div class="alert alert-danger alert-dismissible">
+                   <a href="#" class="close" data-dismiss="alert">&times;</a>
+                   <strong>Success!</strong> indication de succes ou action positive
+               </div>  
+        </div>
+    </body>
+</html>    
